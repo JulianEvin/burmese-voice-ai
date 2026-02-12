@@ -51,7 +51,7 @@ st.markdown("""
 
 # ၃. ခေါင်းစဉ်အပိုင်း
 st.markdown("# 🇲🇲 Burmese Voice AI")
-st.markdown("### မြန်မာစာများကို အသံဖြင့် ဖတ်ပြပေးမည့် နည်းပညာ")
+st.markdown("### မြန်မာစာများကို အသံဖြင့် ဖတ်ပြပေးမည်")
 st.divider()
 
 # ၄. ဘယ်/ညာ ခွဲပြီး နေရာချခြင်း (Columns)
@@ -65,7 +65,7 @@ with col2:
     st.write("### ⚙️ ဆက်တင်များ")
     voice_option = st.radio(
         "အသံရွေးချယ်ပါ:",
-        ("ကိုသီဟ (Male)", "မနီလာ (Female)")
+        ("ကိုရဲ (Male)", "မီမီ (Female)")
     )
     
     # Speed ထိန်းညှိခြင်း (အပိုထည့်ပေးထားပါတယ်)
@@ -125,4 +125,5 @@ if st.button("🔊 အသံဖိုင် ဖန်တီးမည် (Generat
 
 # Footer
 st.markdown("---")
+
 st.caption("Developed with ❤️ Julian Evin")
